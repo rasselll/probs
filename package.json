@@ -1,0 +1,43 @@
+{
+  "name": "Shop",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "entities": "^1.1.1",
+    "native-base": "^2.2.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.0-alpha.1",
+    "react-dom": "^16.0.0",
+    "react-native": "0.54.0",
+    "react-native-af-video-player": "^0.1.7",
+    "react-native-animatable": "^1.2.4",
+    "react-native-animated-bar": "^0.2.0",
+    "react-native-drawer": "^2.3.0",
+    "react-native-image-gallery": "^1.1.0",
+    "react-native-router-flux": "^4.0.0-beta.9",
+    "react-native-snap-carousel": "^2.4.0",
+    "react-native-vector-icons": "^4.5.0",
+    "react-native-video": "^2.0.0",
+    "react-player": "^1.3.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "styled-components": "^3.2.3"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-native": "2.1.0",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
